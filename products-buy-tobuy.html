@@ -11,7 +11,7 @@
 <body ontouchstart="">
   <header class="ui-header ui-header-positive ui-border-b ui-bg-hui ui-header-list">
       <i class="ui-icon-return ui-icon-back" onclick="history.back()"></i><h1>填写认购信息</h1>
-      <a class="ui-header-bnt" href=""><em>协助撮合</em></a>
+      <a class="ui-header-bnt" href="products-buy-help.html"><em>协助撮合</em></a>
   </header>
   <section class="ui-container">
     <div id="shoporderinput" class="mt10 ui-bg-bai">
@@ -113,7 +113,7 @@
             button:["确认","取消"],
             allowScroll:'false'
         });
-        $("#dialogButton0").click(function(){
+        $("#dialogButton0").tap(function(){
           el=$.tips({
                 content:'你的订单已经提交！',
                 stayTime:2000,
@@ -123,7 +123,7 @@
                 console.log("tips hide");
             })
         });
-        $("#dialogButton1").click(function(){
+        $("#dialogButton1").tap(function(){
           el=$.tips({
                 content:'如果订单有问题请联系客服！',
                 stayTime:2000,

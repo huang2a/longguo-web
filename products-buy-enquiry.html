@@ -67,7 +67,6 @@
                         <p>款到发货</p>
                     </div>
                   </div>
-
               </div>
               <div class="ui-form-item ui-form-item-show ui-border-b">
                   <label for="#">账       期：</label>
@@ -93,7 +92,7 @@
             button:["确认","取消"],
             allowScroll:'false'
         });
-        $("#dialogButton0").click(function(){
+        $("#dialogButton0").tap(function(){
           el=$.tips({
                 content:'你的订单已经提交！',
                 stayTime:2000,
@@ -103,7 +102,7 @@
                 console.log("tips hide");
             })
         });
-        $("#dialogButton1").click(function(){
+        $("#dialogButton1").tap(function(){
           el=$.tips({
                 content:'如果订单有问题请联系客服！',
                 stayTime:2000,
