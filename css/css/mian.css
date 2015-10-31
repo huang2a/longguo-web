@@ -1,0 +1,518 @@
+@charset "UTF-8";
+/**
+ * @authors Your Name (huang: 2a)
+ * @date    2015-10-26 16:52:12
+ * @version $0.0.1$
+ */
+body {
+  width: 100%;
+  padding: 0;
+  font-family: '微软雅黑', 'Microsoft Yahei', sans-serif;
+  color: #666;
+  margin: 0 auto;
+  position: relative;
+  max-width: 640px;
+}
+html,
+body {
+  background: #f8f8f8;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: visible;
+  min-width: 0;
+}
+html {
+  font-size: 62.5%;
+  /*10 ÷ 16 × 100% = 62.5%*/
+}
+body {
+  font-size: 1.4rem;
+  /*1.4 × 10px = 14px */
+}
+.ui-bg-cheng {
+  background: #ff6600 !important;
+}
+.ui-bg-hui {
+  background: #f9f9f9 !important;
+}
+.ui-bg-bai {
+  background: #ffffff !important;
+}
+.ui-bg-lan {
+  background: #30a9ee !important;
+}
+.ui-font-cheng {
+  color: #FF6600;
+}
+.ui-font-hong {
+  color: #FF3300;
+}
+.ui-font-c3 {
+  color: #333;
+}
+.ui-font-c255 {
+  color: #fff;
+}
+.ui-font24 {
+  font-size: 2.4rem;
+}
+.ui-font20 {
+  font-size: 2rem;
+}
+.ui-font18 {
+  font-size: 1.8rem;
+}
+.ui-font16 {
+  font-size: 1.6rem;
+}
+.ui-font-bold {
+  font-weight: bold;
+}
+.ui-text-al {
+  text-align: left;
+}
+.ui-text-ar {
+  text-align: right;
+}
+.ui-text-ac {
+  text-align: center;
+}
+.mt10 {
+  margin-top: 1rem;
+}
+.mb10 {
+  margin-bottom: 1rem;
+}
+.lh3 {
+  line-height: 3rem;
+  height: 3rem;
+}
+.float-l {
+  float: left;
+}
+.float-r {
+  float: right;
+}
+.ui-radio-box {
+  margin-left: 80px;
+}
+/*首页导航*/
+.ui-icon-logo {
+  position: absolute;
+  left: .3rem;
+  width: 10rem;
+  height: 50px;
+  background: url(../../images/logo.png) left center no-repeat;
+  background-size: 100%;
+  text-indent: -99999px;
+}
+.ui-icon-search {
+  position: absolute;
+  right: 4.2rem;
+  width: 3rem;
+  height: 50px;
+  text-indent: -99999px;
+  background: url(../../images/search.png) center center no-repeat;
+  background-size: 100%;
+}
+.ui-icon-usercontent {
+  position: absolute;
+  right: .3rem;
+  width: 3rem;
+  height: 50px;
+  text-indent: -99999px;
+  background: url(../../images/user.png) center center no-repeat;
+  background-size: 100%;
+}
+.ui-small-search {
+  background: url(../../images/icon-small-search.png) left center no-repeat;
+  background-size: contain;
+  padding-left: 2.2rem;
+}
+#footer .userlogin {
+  background: #fff;
+  height: 4rem;
+  border-top: #bdbdbd 1px solid;
+  border-bottom: #bdbdbd 1px solid;
+  line-height: 4rem;
+  font-size: 1.6rem;
+  padding: 0 1.6rem;
+  text-align: center;
+}
+#footer .userlogin a {
+  margin-top: 1.3rem;
+  padding: 0 1rem;
+  text-align: center;
+  display: inline-block;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  color: #333;
+}
+#footer .ui-bottom-nav {
+  background: #f9f9f8;
+  border-top: #bdbdbd 1px solid;
+  border-bottom: #bdbdbd 1px solid;
+}
+#footer .ui-bottom-nav .app {
+  background: url(../../images/icon-fooder-app.jpg) no-repeat center;
+  background-size: contain;
+}
+#footer .ui-bottom-nav .web {
+  background: url(../../images/icon-fooder-web.jpg) no-repeat center;
+  background-size: contain;
+}
+#footer .ui-bottom-nav .pc {
+  background: url(../../images/icon-fooder-PC.jpg) no-repeat center;
+  background-size: contain;
+}
+#footer .ui-bottom-nav a {
+  display: inline-block;
+  width: 32.33%;
+  height: 8rem;
+  text-indent: -9999px;
+}
+#footer .ui-bottom-nav i {
+  display: block;
+  width: 5rem;
+  height: 8rem;
+  margin: 0 auto;
+}
+#footer .copyright {
+  padding: 1rem  .5rem;
+  background: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #333;
+}
+/* card meun */
+.ui-border-radius {
+  border-radius: .4rem;
+  -moz-border-radius: .4rem;
+  -webkit-border-radius: .4rem;
+}
+.ui-a-bnt {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding-left: 35%;
+  text-align: left;
+  font-size: 2rem;
+  color: #fff;
+}
+.ui-meun-bg1 {
+  background: #ff5a00;
+}
+.ui-meun-bg2 {
+  background: #ff6900;
+}
+.ui-meun-bg3 {
+  background: #ff8701;
+}
+.ui-meun-bg4 {
+  background: #fea001;
+}
+.ui-meun-bg5 {
+  background: #0dbcb6;
+}
+.ui-meun-bg6 {
+  background: #21ace0;
+}
+.ui-meun-bg7 {
+  background: #0094fc;
+}
+.ui-meun-bg8 {
+  background: #2580dd;
+}
+.icon-card-meun1 {
+  background: url(../../images/icon-card-meun1.png) left center no-repeat;
+}
+.icon-card-meun2 {
+  background: url(../../images/icon-card-meun2.png) left center no-repeat;
+}
+.icon-card-meun3 {
+  background: url(../../images/icon-card-meun3.png) left center no-repeat;
+}
+.icon-card-meun4 {
+  background: url(../../images/icon-card-meun4.png) left center no-repeat;
+}
+.icon-card-meun5 {
+  background: url(../../images/icon-card-meun5.png) left center no-repeat;
+}
+.icon-card-meun6 {
+  background: url(../../images/icon-card-meun6.png) left center no-repeat;
+}
+.icon-card-meun7 {
+  background: url(../../images/icon-card-meun7.png) left center no-repeat;
+}
+.icon-card-meun8 {
+  background: url(../../images/icon-card-meun8.png) left center no-repeat;
+}
+.icon-card-meun {
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
+  left: 10%;
+  top: 1.3rem;
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
+/*电话联系*/
+#ui-tel {
+  height: 5.5rem;
+  line-height: 5.5rem;
+  position: relative;
+  background: #fff;
+  border-top: solid 1px #dbdbdb;
+  border-bottom: solid 1px #dbdbdb;
+}
+#ui-tel i {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  background: url(../../images/icon-tel.png) center center no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  margin-top: -2rem;
+}
+#ui-tel span {
+  display: inline-block;
+  height: 5.5rem;
+  float: left;
+}
+#ui-tel .t-send a {
+  padding: .2rem .6rem;
+  border-radius: 1.5rem;
+  border: solid #ff6600 1px;
+  color: #ff6600;
+}
+#ui-tel .t-icon {
+  display: inline-block;
+  width: 3.5rem;
+  height: 5.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background: url("../../images/icon-tel.png") no-repeat center;
+  background-size: contain;
+  text-indent: -9999px;
+}
+#ui-tel .t-num {
+  font-size: 2rem;
+  height: 5.5rem;
+  display: inline-block;
+  color: #f70;
+  font-weight: bold;
+}
+#ui-tel .t-send {
+  font-size: 2rem;
+  color: #3093ed;
+  float: right;
+  margin-right: 1.5rem;
+  font-weight: bold;
+}
+#product-car {
+  border-top: 2px solid #bdbdbd;
+  background: #fff;
+}
+#product-car h2 {
+  height: 4rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  text-indent: 1.6rem;
+  color: #333;
+}
+#product-car .ui-row li {
+  padding-top: 1.5rem;
+}
+#product-car .ui-row li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+#product-car .ui-row li .icon {
+  width: 7rem;
+  margin: 0 auto;
+  text-indent: .6rem;
+  line-height: 2rem;
+  font-size: 1.8rem;
+  background: url("../../images/product-bg.png") no-repeat center;
+  background-size: contain;
+  text-align: center;
+  color: #fff;
+}
+#product-car .ui-row li .title {
+  margin-bottom: 1.2rem;
+  color: #333;
+  font-size: 1.6rem;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.ui-header-list {
+  border-bottom: #ccc solid 2px;
+}
+.ui-header-list h1 {
+  color: #333333;
+  font-size: 2.4rem;
+}
+.ui-header-list .ui-icon-back {
+  color: #8c8c8c;
+  line-height: 32px;
+  margin-top: -16px;
+  border-radius: 32px;
+  border: #ccc solid 1px;
+  position: absolute;
+  top: 50%;
+  left: .5rem;
+}
+.ui-header-list .ui-header-bnt {
+  position: absolute;
+  display: inline-block;
+  right: .5rem;
+  top: 50%;
+  margin-top: -16px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 1.6rem;
+}
+.ui-header-list .ui-header-bnt i {
+  display: inline-block;
+  margin-right: .5rem;
+  background: #ff8444;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 28px;
+  border: #ccc solid 1px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+#product-tab .ui-active {
+  border-bottom: #FF6600 solid 2px;
+  margin-bottom: -1px;
+}
+#product-tab .ui-active a {
+  color: #FF6600;
+}
+.ui-tab-tit {
+  background: #fff;
+  border-bottom: solid 1px #dbdbdb;
+  padding: .8rem 0;
+}
+.ui-tab-tit a {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  font-size: 2rem;
+}
+#filtrate-box {
+  background: #fff;
+  padding: .5rem 0;
+  border-top: 1px solid #bdbdbd;
+}
+#filtrate-box a {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  font-size: 2rem;
+}
+#filtrate-box .ui-active a {
+  color: #FF6600;
+}
+#filtrate-box .arrow3 {
+  vertical-align: middle;
+  display: inline-block;
+  height: .7rem;
+  box-sizing: border-box;
+  width: .8rem;
+  background: url("../../images/jiantou3.png") center no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+}
+#filtrate-box .arrow2 {
+  vertical-align: middle;
+  display: inline-block;
+  height: .7rem;
+  box-sizing: border-box;
+  width: .8rem;
+  background: url("../../images/jiantou2.png") center no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+}
+#filtrate-box .arrow1 {
+  vertical-align: middle;
+  display: inline-block;
+  height: .7rem;
+  box-sizing: border-box;
+  width: .8rem;
+  background: url("../../images/jiantou1.png") center no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+}
+#ui-prducts-buy {
+  font-size: 1.8rem;
+}
+#ui-prducts-buy .ui-subscribe {
+  margin-right: 1rem;
+  background: #FF6600;
+  color: #fff;
+  border: none !important;
+  height: 24px;
+  line-height: 24px;
+}
+#ui-prducts-buy .ui-counter {
+  color: #FF6600;
+  border: #FF6600 solid 1px;
+  height: 24px;
+  line-height: 24px;
+}
+.ui-page-btn {
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 2.4rem;
+}
+#shopinfo {
+  padding-top: .5rem;
+  padding-bottom: 1.5rem;
+  border-top: #bdbdbd 1px solid;
+  border-bottom: #bdbdbd 1px solid;
+}
+#shopinfo .ui-shopinfo-btn {
+  display: inline-block;
+  color: #fff;
+  font-size: 2.4rem;
+  border-radius: .5rem;
+  width: 90%;
+  text-align: center;
+  padding: .5rem 0;
+}
+#shopproperty {
+  border-top: #bdbdbd 1px solid;
+  border-bottom: #bdbdbd 1px solid;
+}
+#shopproperty .title {
+  line-height: 4rem;
+  height: 4rem;
+  text-indent: 1rem;
+}
+/*流布局查询功能-------320px---------*/
+@media only screen and (max-width: 320px) {
+  #ui-tel .t-icon {
+    display: inline-block;
+    width: 3rem;
+    height: 5.5rem;
+    background: url("../../images/icon-tel.png") no-repeat center;
+    background-size: contain;
+  }
+  #ui-tel span .t-send {
+    font-size: 1.3rem;
+    margin-right: 1rem;
+  }
+  #footer .ui-bottom-nav a {
+    width: 30.33%;
+  }
+}
